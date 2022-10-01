@@ -1,10 +1,11 @@
 import './App.css';
+import Counter from './features/components/Counter';
 
 function App() {
   return (
-    <div className="App">
-      Redux Toolkit    
-    </div>
+    <main className="App">
+      <Counter />   
+    </main>
   );
 }
 
